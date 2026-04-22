@@ -72,5 +72,5 @@ O projeto utiliza ActiveMQ embutido na aplicação para simplificação do ambie
 👨‍💻 Integrantes
 RM561090 – Matteus Viegas
 RM561089 – Sulamita Viegas
-RM561077 – Lucas Siqueira
-RM561088 – Antonio de Lucas
+RM560914  – Lucas Siqueira
+RM560169  – Antonio 
