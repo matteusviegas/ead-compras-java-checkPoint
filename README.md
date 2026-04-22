@@ -62,3 +62,15 @@ http://localhost:8080/compras
 ⚙️ Como Executar
 Clonar o repositório:
 git clone https://github.com/seu-repositorio.git
+
+
+
+📌 Observação
+
+O projeto utiliza ActiveMQ embutido na aplicação para simplificação do ambiente de execução, permitindo testes sem necessidade de configuração externa.
+
+👨‍💻 Integrantes
+RM561090 – Matteus Viegas
+RM561089 – Sulamita Viegas
+RM561077 – Lucas Siqueira
+RM561088 – Antonio de Lucas
