@@ -16,10 +16,8 @@ public class CompraController {
     }
 
     @PostMapping
-    public ResponseEntity<String> criarCompra(@RequestBody CompraRequest compra) {
-
-        compraProducer.enviarParaFila(compra);
-
-        return ResponseEntity.ok("Compra enviada para fila com sucesso!");
+    public ResponseEntity<String> criarCompra(@RequestBody CompraRequest compraRequest) {
+        compraProducer.enviarParaFila(compraRequest);
+        return ResponseEntity.ok("Compra enviada para processamento com sucesso.");
     }
 }
